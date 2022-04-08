@@ -33,3 +33,5 @@ The sample code can be configured to time its operations by setting the PROFILE_
 ## FURTHER INFORMATION
 
 For more information about the CGWindow API, refer to the "Quartz Window Services" Reference (<https://developer.apple.com/documentation/coregraphics/quartz_window_services?language=objc>).
+
+Link to original: https://developer.apple.com/library/archive/samplecode/SonOfGrab/Introduction/Intro.html
