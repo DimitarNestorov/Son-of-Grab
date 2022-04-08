@@ -8,7 +8,7 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication"/>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
-        <customObject id="-3" userLabel="Application"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <menu title="AMainMenu" systemMenu="main" id="29" userLabel="MainMenu">
             <items>
                 <menuItem title="SonOfGrab" id="56">
@@ -251,12 +251,12 @@
                             <subviews>
                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnSelection="YES" autosaveColumns="NO" headerView="379" id="378">
                                     <rect key="frame" x="0.0" y="0.0" width="585" height="348"/>
-                                    <autoresizingMask key="autoresizingMask"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <size key="intercellSpacing" width="3" height="2"/>
                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                     <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                     <tableColumns>
-                                        <tableColumn editable="NO" width="183" minWidth="180" maxWidth="3000" headerToolTip="" id="380">
+                                        <tableColumn editable="NO" width="180" minWidth="180" maxWidth="3000" headerToolTip="" id="380">
                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Application">
                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
@@ -316,7 +316,7 @@
                                                 <binding destination="438" name="value" keyPath="arrangedObjects.windowID" id="454"/>
                                             </connections>
                                         </tableColumn>
-                                        <tableColumn editable="NO" width="153" minWidth="150" maxWidth="250" headerToolTip="" id="393">
+                                        <tableColumn editable="NO" width="150" minWidth="150" maxWidth="250" headerToolTip="" id="393">
                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Window Level">
                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
@@ -339,7 +339,7 @@
                             <rect key="frame" x="1" y="361" width="585" height="16"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </scroller>
-                        <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="37" horizontal="NO" id="376">
+                        <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="376">
                             <rect key="frame" x="570" y="29" width="16" height="348"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </scroller>
@@ -506,7 +506,7 @@
             <connections>
                 <outlet property="initialFirstResponder" destination="378" id="475"/>
             </connections>
-            <point key="canvasLocation" x="139" y="-132"/>
+            <point key="canvasLocation" x="748" y="125"/>
         </window>
         <window title="Composited Image" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" visibleAtLaunch="NO" animationBehavior="default" id="419">
             <windowStyleMask key="styleMask" titled="YES" miniaturizable="YES" resizable="YES"/>
@@ -525,6 +525,7 @@
                     </imageView>
                 </subviews>
             </view>
+            <point key="canvasLocation" x="113" y="125"/>
         </window>
         <customObject id="429" customClass="Controller">
             <connections>
@@ -549,6 +550,7 @@
                 <string>windowOrigin</string>
                 <string>windowSize</string>
             </declaredKeys>
+            <classReference key="objectClass" className="NSDictionary"/>
         </arrayController>
     </objects>
 </document>

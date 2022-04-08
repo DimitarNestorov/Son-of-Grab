@@ -1,10 +1,10 @@
-# SonOfGrab
+# Son of Grab
 
 <p align="center">
 <img src="Screenshot.png" width="894" alt="Screenshot">
 </p>
 
-SonOfGrab demonstrates the CGWindow API to grab the contents of arbitrary sets of windows.
+Son of Grab demonstrates the CGWindow API to grab the contents of arbitrary sets of windows.
 
 The core of this sample are 5 methods on the Controller class, described below.
 

@@ -44,13 +44,13 @@
 }
 
 @property (strong) WindowListApplierData *windowListData;
-@property (weak) IBOutlet NSButton * listOffscreenWindows;
-@property (weak) IBOutlet NSButton * listDesktopWindows;
-@property (weak) IBOutlet NSButton * imageFramingEffects;
-@property (weak) IBOutlet NSButton * imageOpaqueImage;
-@property (weak) IBOutlet NSButton * imageShadowsOnly;
-@property (weak) IBOutlet NSButton * imageTightFit;
-@property (weak) IBOutlet NSMatrix * singleWindow;
+@property (unsafe_unretained) IBOutlet NSButton * listOffscreenWindows;
+@property (unsafe_unretained) IBOutlet NSButton * listDesktopWindows;
+@property (unsafe_unretained) IBOutlet NSButton * imageFramingEffects;
+@property (unsafe_unretained) IBOutlet NSButton * imageOpaqueImage;
+@property (unsafe_unretained) IBOutlet NSButton * imageShadowsOnly;
+@property (unsafe_unretained) IBOutlet NSButton * imageTightFit;
+@property (unsafe_unretained) IBOutlet NSMatrix * singleWindow;
 
 @end
 
