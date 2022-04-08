@@ -6,7 +6,7 @@
 
 Son of Grab demonstrates the CGWindow API to grab the contents of arbitrary sets of windows.
 
-The core of this sample are 5 methods on the Controller class, described below.
+The core of this sample are 4 methods on the Controller class, described below.
 
 ### `-[Controller updateWindowList]`
 This method gets the current list of windows from the window server. Options in the GUI allow you to exclude offscreen windows and desktop elements. The list returned from the window server is further processed (via the WindowListApplierFunction callback) to produce the list that is presented in the GUI.
